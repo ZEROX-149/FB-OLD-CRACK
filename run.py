@@ -3,4 +3,4 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     os.system("python index.py")
 elif bit == '32bit':
-    import old32
+    import run32
